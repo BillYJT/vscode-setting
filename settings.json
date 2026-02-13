@@ -1,0 +1,19 @@
+{
+    "workbench.colorTheme": "Correia Gruvbox Theme",
+    "vim.normalModeKeyBindings": [
+        {
+            "before" : ["<leader>","e"],
+            "commands" : [
+                "workbench.view.explorer"
+            ]
+        },
+        {
+            "before" : ["<leader>","f"],
+            "commands" : [
+                "workbench.action.quickOpen"
+            ]
+        },
+
+    ],
+    "vim.leader": " "
+}
