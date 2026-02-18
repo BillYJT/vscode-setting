@@ -13,6 +13,34 @@
                 "workbench.action.quickOpen"
             ]
         },
+        // big up/down move
+        {
+            "before" : ["<leader>","j"],
+            "commands" : [
+                "editor.action.joinLines"
+            ]
+        },
+        {
+            "before" : ["J"],
+            "after" : [
+                "5","j"
+            ]
+        },
+        {
+            "before" : ["K"],
+            "after" : [
+                "5","k"
+            ]
+        },
+        // view scroll without moving cursor
+        {
+            "before": ["<C-j>"],
+            "after": ["5", "<C-e>"]
+        },
+        {
+            "before": ["<C-k>"],
+            "after": ["5", "<C-y>"]
+        }
 
     ],
     "vim.leader": " "
