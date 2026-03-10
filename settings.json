@@ -13,6 +13,13 @@
                 "workbench.action.quickOpen"
             ]
         },
+        {
+            "before" : ["<leader>","o"],
+            "commands" : [
+                "outline.focus",
+                "outline.collapse"
+            ]
+        },
         // big up/down move
         {
             "before" : ["<leader>","j"],
