@@ -1,5 +1,4 @@
 {
-    "workbench.colorTheme": "Correia Gruvbox Theme",
     "vim.normalModeKeyBindings": [
         {
             "before" : ["<leader>","e"],
@@ -28,6 +27,10 @@
             ]
         },
         {
+            "before": ["<leader>","b"],
+            "commands": ["workbench.action.toggleSidebarVisibility"]
+        },
+        {
             "before" : ["J"],
             "after" : [
                 "5","j"
@@ -47,8 +50,8 @@
         {
             "before": ["<C-k>"],
             "after": ["5", "<C-y>"]
-        }
-
+        },
     ],
-    "vim.leader": " "
+    "vim.leader": " ",
+
 }
