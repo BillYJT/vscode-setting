@@ -1,0 +1,13 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "/",
+        "command": "list.find",
+        "when": "listFocus && listSupportsFind"
+    },
+    {
+        "key": "ctrl+alt+f",
+        "command": "-list.find",
+        "when": "listFocus && listSupportsFind"
+    }
+]
